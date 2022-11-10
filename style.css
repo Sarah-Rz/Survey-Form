@@ -1,0 +1,97 @@
+body {
+    width: 100%;
+    margin: 1rem auto;
+    background:linear-gradient(rgb(110, 230, 192), rgba(110, 230, 192, 0.3));
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    color: #fff;
+  }
+  
+  #description {
+    font-size: 1.15rem;
+    color: rgb(7, 102, 80);
+    font-style: italic;
+  }
+  
+  p {
+    font-size: 1.07rem;
+    color: rgb(5, 125, 230);
+    margin-bottom: 0.5rem;
+  }
+  
+  #optional {
+    font-size: 0.80rem;
+    color: rgb(5, 125, 230, 0.8);
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  form {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem ;
+    box-shadow: 0 0 20px 0 rgb(26, 82, 60);
+    border-radius: 0.5rem;
+    color: rgb(30, 122, 227)
+  }
+  
+  label {
+    display: block;
+  }
+  
+  #name-label, #email-label, #number-label, #dropdown {
+    margin-bottom: 1rem;
+  }
+  
+  
+  input[type="radio"] {
+    margin: 0;
+  }
+  
+  input, textarea, select{
+    margin: 5px 0 0 0;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(110, 230, 192);
+    resize: none;
+    font-size: 1rem;
+    background-color: rgba(110, 230, 192, 0.1);
+  }
+  
+  
+  textarea{
+    width: 100%;
+    height: 20vh;
+  }
+  
+  #submit {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(237, 88, 143);
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  #dropdown {
+    border: 2px solid rgb(110,230,192);
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+  }
+  
+  .inline {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 1rem 0 0;
+  }
+  
+  

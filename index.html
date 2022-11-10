@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charsset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <header>
+    <h1 id="title">Website Survey Form</h1>
+    <p id="description">Thank you for taking the Time to help me improve my Website.</p>
+  </header>
+  <body>
+    <form id="survey-form">
+      <label id="name-label">
+        Name<input id="name" type="text" required placeholder="Enter your Name">
+      </label>
+      <label id="email-label">
+        Email<input id="email" type="email" required placeholder="Enter your Email"> 
+      </label>
+      <label id="number-label">
+        Age <span id="optional">(optional)</span><input id="number" type="number" min="13" max="120" placeholder="Age">
+      </label>
+      <label>What's your profession?  
+      <select id="dropdown">
+        <option value="">select one</option>
+        <option value="1">Front-end Developer</option>  
+      <option value="2">Back-end Developer</option>    
+      <option value="3">Full Stack Developer</option>
+      </select>
+      </label>
+        <p>Would you recommend my Website to a friend?</p>
+       <label><input name="survey-type" type="radio" value="1" class="inline"> Definitely</label>
+        <label><input name="survey-type" type="radio" value="2" class="inline"> Maybe</label>
+        <label><input name="survey-type" type="radio" value="3" class="inline"> Not Sure</label> 
+          <p>In your opinion, what needs to be improved?</p>
+        <label><input type="checkbox" value="1" class="inline">Front-end Projects </label>
+        <label><input type="checkbox" value="2" class="inline">Back-end Projects</label>
+          <p>Any comments or suggestions?</p><textarea placeholder="Enter your Comment here..."></textarea>
+       <label>
+       <button id="submit">Submit</button> 
+       </label> 
+    </form>
+  </body>    
+
+</html>
